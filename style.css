@@ -4,5 +4,5 @@ header {
 }
 .bgc-green {
   background-color: RGB(26, 188, 156);
-  min-height: 500px;
+  height: 500px;
 }
