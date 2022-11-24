@@ -6,3 +6,7 @@ header {
   background-color: RGB(26, 188, 156);
   height: 500px;
 }
+.title-portfolio {
+  min-height: 200px;
+  width: 100%;
+}
