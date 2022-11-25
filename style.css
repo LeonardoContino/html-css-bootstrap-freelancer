@@ -8,9 +8,28 @@ header > .navbar-toggler-icon,
 }
 .bgc-green {
   background-color: RGB(26, 188, 156);
-  height: 500px;
+  min-height: 200px;
+}
+.bi-star-fill {
+  font-size: 40px;
 }
 .title-portfolio {
   min-height: 200px;
   width: 100%;
+}
+
+#contact .form-control {
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  padding-left: 0;
+}
+.footer-top {
+  background-color: RGB(59, 84, 109);
+}
+.around-icon > i {
+  padding: 10px;
+  font-size: 30px;
+}
+.footer-bt {
+  background-color: RGB(45, 63, 80);
 }
