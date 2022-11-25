@@ -10,6 +10,9 @@ header > .navbar-toggler-icon,
   background-color: RGB(26, 188, 156);
   min-height: 200px;
 }
+.img-small {
+  height: 400px;
+}
 .bi-star-fill {
   font-size: 40px;
 }
