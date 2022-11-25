@@ -15,6 +15,7 @@ header {
 }
 .row-card {
   min-height: 200px;
+  width: 500px;
 }
 .row-card > [class^="col"] {
   min-height: 400px;
