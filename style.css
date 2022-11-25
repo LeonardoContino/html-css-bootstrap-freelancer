@@ -2,6 +2,10 @@ header {
   min-height: 100px;
   background-color: RGB(45, 63, 80);
 }
+header > .navbar-toggler-icon,
+.navbar [class^="nav"] {
+  color: white;
+}
 .bgc-green {
   background-color: RGB(26, 188, 156);
   height: 500px;
@@ -9,20 +13,4 @@ header {
 .title-portfolio {
   min-height: 200px;
   width: 100%;
-}
-.card {
-  min-height: 800px;
-}
-.row-card {
-  min-height: 200px;
-}
-.row-card > [class^="col"] {
-  min-height: 400px;
-
-  background-color: blue;
-  margin-bottom: 20px;
-}
-.img-size {
-  width: 300px;
-  height: 300px;
 }

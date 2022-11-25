@@ -12,24 +12,35 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="container-fluid text-white p-4 d-flex">
-      <div class="row w-100 justify-content-between container-xl m-auto">
-        <div class="col-6 border d-flex align-items-center">titolo</div>
-        <div
-          class="col-6 border d-flex align-items-center justify-content-end d-md-none"
-        >
-          menù
+    <header>
+      <nav
+        class="navbar navbar-expand-lg justify-content-lg-between justify-content-xl-around p-4 align-items-center"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#">CONTACT</a>
+            </div>
+          </div>
         </div>
-        <div
-          class="col-3 border align-items-center justify-content-center d-none d-md-flex"
-        >
-          <ul class="my-auto w-100 d-flex justify-content-around">
-            <a href="">link</a>
-            <a href="">link</a>
-            <a href="">link</a>
-          </ul>
-        </div>
-      </div>
+      </nav>
     </header>
     <main>
       <section class="bgc-green d-flex justify-content-center">
@@ -47,45 +58,27 @@
           <div class="col-12 text-center border">stella</div>
         </div>
       </section>
-      <section class="container border border-primary my-4">
-        <div class="row row-card border px-md-0">
-          <div
-            class="col-12 col-md-6 col-xl-4 border rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
-          </div>
-          <div
-            class="col-12 border col-md-6 col-xl-4 rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
-          </div>
-          <div
-            class="col-12 border col-md-6 col-xl-4 rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
-          </div>
-          <div
-            class="col-12 border col-md-6 col-xl-4 rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
-          </div>
-          <div
-            class="col-12 border col-md-6 col-xl-4 rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
-          </div>
-          <div
-            class="col-12 border col-md-6 col-xl-4 rounded-3 d-flex justify-content-center align-items-center"
-          >
-            <div class="row img-size border rounded-circle"></div>
+
+      <section>
+        <div class="row gx-0 justify-content-md-between">
+          <div class="card col-12 col-md-6 p-4">
+            <img src="img/cabin.png" alt="" />
+            <img src="img/cabin.png" alt="" />
+            <img src="img/cabin.png" alt="" />
+            <img src="img/cabin.png" alt="" />
+            <img src="img/cabin.png" alt="" />
+            <img src="img/cabin.png" alt="" />
           </div>
         </div>
       </section>
-      <section class="about border bgc-green d-flex justify-content-center">
-        <div class="row container border">
+
+      <section
+        class="about gx-0 border bgc-green d-flex justify-content-center"
+      >
+        <div class="row gx-0 container border justify-content-center">
           <div class="col border text-center">
             ciao stella
-            <div class="row border justify-content-center">
+            <div class="row gx-0 border justify-content-center">
               <div class="col-10 col-md-5 border">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
                 ipsam adipisci suscipit ducimus sed. Blanditiis laudantium quia
@@ -100,8 +93,8 @@
               </div>
             </div>
           </div>
-          <div class="row border">
-            <div class="col">bottom</div>
+          <div class="row gx-0 border">
+            <div class="col text-center">bottom</div>
           </div>
         </div>
       </section>
